@@ -3,11 +3,21 @@
     "android": {
       "release": {
         "workflow": "managed"
+      },
+      "alpha": {
+        "workflow": "managed",
+        "releaseChannel": "alpha",
+        "distribution": "internal"
       }
     },
     "ios": {
       "release": {
         "workflow": "managed"
+      },
+      "alpha": {
+        "workflow": "managed",
+        "releaseChannel": "alpha",
+        "distribution": "internal"
       }
     }
   }
